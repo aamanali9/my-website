@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amaan Sweets</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* MENU */
+.menu {
+    padding: 50px;
+    text-align: center;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ABOUT */
+.about {
+    background: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button.submit {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Amaan Sweets</h1>
+    <p>Delicious sweets made with love ❤️</p>
+    <button>Order Now</button>
+</section>
+
+<!-- MENU -->
+<section class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+        <div class="card">Gulab Jamun - ₹150</div>
+        <div class="card">Rasgulla - ₹120</div>
+        <div class="card">Kaju Katli - ₹400</div>
+        <div class="card">Laddu - ₹180</div>
+        <div class="card">Jalebi - ₹100</div>
+        <div class="card">Barfi - ₹250</div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        Amaan Sweets is known for its traditional taste and high-quality ingredients.
+        We bring you the best sweets in town with authentic flavors.
+    </p>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial">
+    <h2>What Customers Say</h2>
+    <p>"Best sweets I’ve ever tasted! Highly recommended." ⭐⭐⭐⭐⭐</p>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name"><br>
+        <input type="email" placeholder="Your Email"><br>
+        <textarea placeholder="Your Message"></textarea><br>
+        <button class="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Amaan Sweets | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
